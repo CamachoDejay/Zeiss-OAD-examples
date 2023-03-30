@@ -1,4 +1,4 @@
-#!C:/Users/rafaelCCI/.conda/envs/env-01
+#!c:/Users/rafaelCCI/.conda/envs/env-01/python
 #################################################################
 # File        : script_01.py
 # Version     : 1.0
@@ -17,3 +17,6 @@ if __name__ == "__main__":
     print('start of script_01 main')
     print(f'skimage version: {sk.__version__}')
     print('end of script_01 main')
+
+    with open('readme_s1.txt', 'w') as f:
+        f.write('Create a new text file!')
