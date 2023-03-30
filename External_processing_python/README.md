@@ -5,3 +5,7 @@
 3) Add env-01 path to the beginning of script_01.
 4) Add env-02 path to the beginning of script_02.
 2) open a terminal with python3 available and run ```python script_02.py```
+
+## Examples for FIJI by ZEISS team
+
+https://github.com/zeiss-microscopy/OAD/tree/master/Scripts/Start_External_Software
