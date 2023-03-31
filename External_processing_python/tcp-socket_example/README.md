@@ -43,7 +43,9 @@ Make sure that the firewall rules of the image analysis server allow connections
 3) notice that the terminal will be **frozen**. The server is now waiting
 
 ### Run CD7 macro
-Run the CD7 macro. The CD7 should get a message back from the server which echoes the script we asked for. In this case **script_01.py**. The terminal in the server should look like this:
+Run the CD7 macro. The CD7 should get a message back from the server which echoes the script we asked for. In this case **script_01.py**. 
+
+The terminal in the server should look like this:
 
 ```
 Connected by ('xxx.yyy.zz.aa', xxxxx)
@@ -52,4 +54,4 @@ start of script_01 main
 skimage version: 0.19.3
 end of script_01 main
 ```
-
+At the same time, you should see a new text file in the path of the **test-server.py**. The text file contains a timestamp for testing purposes. 
